@@ -56,7 +56,6 @@ with open('domains_links.csv', 'w', newline='', encoding='utf-8') as csvfile:
 
 with open('https_domains_cleaned.csv', 'w', newline='', encoding='utf-8') as csvfile:
     writer = csv.writer(csvfile)
-    writer.writerow(['HTTPS URL'])
     writer.writerows(cleaned_urls)
 
 banner()
